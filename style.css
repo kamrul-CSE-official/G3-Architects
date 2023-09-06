@@ -203,7 +203,8 @@ footer {
     border-radius: 8px;
     background: #FFF4E7;
     text-align: center;
-    width: 100%;
+    padding: 10px;
+    margin: 20px 15px;
 }
 
 
@@ -220,6 +221,14 @@ footer {
     .facts-card-container,
     .sponsors-img-contaier {
         flex-direction: column;
+    }
+
+    nav li {
+        margin: 0;
+    }
+
+    nav ul {
+        gap: 10px;
     }
 
     .feature-img img {
