@@ -112,7 +112,7 @@ main {
 .features {
     margin-top: 130px;
     display: flex;
-    gap: 100px;
+    gap: 90px;
 }
 
 .features .section-title {
@@ -129,7 +129,8 @@ main {
 }
 
 .feature-img img {
-    height: 90%;
+    width: 708px;
+    height: 982px;
     margin-left: 90px;
 }
 
@@ -196,6 +197,19 @@ main {
     width: 165px;
 }
 
+/* footer styles */
+footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
+footer .text-light-gray {
+    padding: 39px 410px;
+}
+
 
 /* Responsive Media Queries */
 /* Mobile Devices */
@@ -219,7 +233,7 @@ main {
 
     .ten-years-badge {
         position: static;
-        max-width: 287px;
+        max-width: 257px;
     }
 
     .temes-imag-containe {
@@ -236,6 +250,8 @@ main {
         gap: 20px;
     }
 }
+
+
 
 /* Tablet Or Medium Devices */
 @media screen and (min-width: 577px) and (max-width: 960px) {
